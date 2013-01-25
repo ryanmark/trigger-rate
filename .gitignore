@@ -20,3 +20,12 @@ xcuserdata
 !xcshareddata
 !xcschemes
 *.moved-aside
+
+# Android/Eclipse crap
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+local.properties
