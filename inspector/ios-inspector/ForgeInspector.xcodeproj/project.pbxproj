@@ -31,7 +31,6 @@
 		B3FC518815C14B2A003574D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC518715C14B2A003574D9 /* main.m */; };
 		B3FC519315C14B35003574D9 /* ForgeCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC519215C14B35003574D9 /* ForgeCore.framework */; };
 		B3FC519515C14B3C003574D9 /* ForgeCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3FC519415C14B3C003574D9 /* ForgeCore.bundle */; };
-		B860356516AE23E1001E2EBF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B860356416AE23E1001E2EBF /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +78,6 @@
 		B3FC518915C14B2A003574D9 /* ForgeInspector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForgeInspector-Prefix.pch"; sourceTree = "<group>"; };
 		B3FC519215C14B35003574D9 /* ForgeCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ForgeCore.framework; sourceTree = "<group>"; };
 		B3FC519415C14B3C003574D9 /* ForgeCore.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ForgeCore.bundle; sourceTree = "<group>"; };
-		B860356416AE23E1001E2EBF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B860356516AE23E1001E2EBF /* StoreKit.framework in Frameworks */,
 				B3F0CB92163AD60B005E099F /* libForgeModule.a in Frameworks */,
 				B307826C15C2A44F006798D7 /* SystemConfiguration.framework in Frameworks */,
 				B307826415C2A393006798D7 /* AssetsLibrary.framework in Frameworks */,
@@ -131,7 +128,6 @@
 		B3FC517A15C14B2A003574D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B860356416AE23E1001E2EBF /* StoreKit.framework */,
 				B307826B15C2A44F006798D7 /* SystemConfiguration.framework */,
 				B307826315C2A393006798D7 /* AssetsLibrary.framework */,
 				B3FC519415C14B3C003574D9 /* ForgeCore.bundle */,
